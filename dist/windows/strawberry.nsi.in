@@ -266,7 +266,7 @@ Section "Strawberry" Strawberry
   File "libsqlite3-0.dll"
   File "libssp-0.dll"
   File "libstdc++-6.dll"
-  File "libsoup-2.4-1.dll"
+  File "libsoup-3.0-0.dll"
   File "libtag.dll"
   File "libtasn1-6.dll"
   File "libunistring-2.dll"
@@ -281,6 +281,7 @@ Section "Strawberry" Strawberry
   File "swresample-3.dll"
   File "swscale-5.dll"
   File "zlib1.dll"
+  File "libnghttp2.dll"
 
 !ifdef with_qt6
   File "Qt6Concurrent.dll"
@@ -546,7 +547,7 @@ Section "Uninstall"
   Delete "$INSTDIR\libsqlite3-0.dll"
   Delete "$INSTDIR\libssp-0.dll"
   Delete "$INSTDIR\libstdc++-6.dll"
-  Delete "$INSTDIR\libsoup-2.4-1.dll"
+  Delete "$INSTDIR\libsoup-3.0-0.dll"
   Delete "$INSTDIR\libtag.dll"
   Delete "$INSTDIR\libtasn1-6.dll"
   Delete "$INSTDIR\libunistring-2.dll"
@@ -573,6 +574,7 @@ Section "Uninstall"
   Delete "$INSTDIR\swresample-3.dll"
   Delete "$INSTDIR\swscale-5.dll"
   Delete "$INSTDIR\zlib1.dll"
+  Delete "$INSTDIR\libnghttp2.dll"
 
 !ifdef debug
   Delete "$INSTDIR\gdb.exe"
